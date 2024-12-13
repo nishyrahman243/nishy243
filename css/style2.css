@@ -1,0 +1,60 @@
+/* Container styling to keep all sections inside the page */
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+  }
+  
+  .education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .institution {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    /* background-color: #f9f9f9; */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  
+  .logo-name {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .info-section {
+    text-align: right;
+  }
+  
+  .info-section p {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .institution:hover {
+    background-color: #e6f7ff;
+    transform: scale(1.02);
+  }
+
+  .gap{
+    margin-bottom: 16px;
+  }
+  
